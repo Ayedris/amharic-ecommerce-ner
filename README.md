@@ -10,4 +10,38 @@ This project is part of the 10Academy Week 4 AI Mastery Challenge (June 18–24,
 - Compare models using metrics like F1-score and interpretability tools (SHAP, LIME).
 - Score vendors using extracted data and Telegram metadata for loan eligibility.
 
-## Project Structure
+### Project Structure
+
+```
+amharic-ecommerce-ner/
+│
+├── data/
+│   ├── raw/
+│   └── labeled/
+│
+├── notebooks/
+│   ├── data_ingestion.ipynb
+│   ├── labeling_sample.ipynb
+│   ├── ner_training.ipynb
+│   └── model_comparison.ipynb
+│
+├── scripts/
+│   ├── telegram_scraper.py
+│   ├── preprocess.py
+│   ├── label_converter.py
+│   ├── train_ner.py
+│   ├── interpretability.py
+│   └── vendor_scorecard.py
+│
+├── models/
+│
+├── outputs/
+│   ├── interim_summary.pdf
+│   └── final_report.pdf
+│
+├── README.md
+├── .gitignore
+├── requirements.txt
+├── dvc.yaml
+└── LICENSE
+```
