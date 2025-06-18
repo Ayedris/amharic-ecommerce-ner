@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.env/
+.venv/
+.ipynb_checkpoints/
+*.log
+*.tmp
+*.bak
+.vscode/
+outputs/
+models/
+data/raw/
+*.dvc
+*.pdf
+secrets.json
